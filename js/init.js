@@ -60,7 +60,7 @@
 						navPanel: {
 							breakpoints: 'mobile',
 							position: 'top',
-							size: '25%',
+							size: '75%',
 							html: '<div data-action="navList" data-args="nav"></div>'
 						}
 					},
@@ -353,8 +353,8 @@
 								var sh = s.outerHeight(), hh = $window.height(), h = Math.ceil((hh - sh) / 2) + 1;
 
 								$header
-									/*.css('padding-top', h)
-									.css('padding-bottom', h);*/
+									.css('padding-top', h)
+									.css('padding-bottom', h);
 							}, 0);
 						}).trigger('resize');
 					}
