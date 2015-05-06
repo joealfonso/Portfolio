@@ -1,5 +1,6 @@
 @charset 'UTF-8';
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,800,400);
 @font-face {
   font-family: 'FontAwesome';
   src: url('font/fontawesome-webfont.eot?v=3.2.1');
@@ -29,10 +30,10 @@ body.paused *
 
 body
 {
-  background: #f0f4f4;
+  background: #fff;
   color: #5b5b5b;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 
@@ -44,9 +45,10 @@ body,input,textarea,select
 
 h1,h2,h3,h4,h5,h6
 {
-  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
   color: #483949;
-  line-height: 1.25em;
+  line-height: 1.5em;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -63,7 +65,7 @@ h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong
 
 h2
 {
-  margin-top: 1em;
+  margin-top: 0em;
   font-size: 2.85em;
 }
 
@@ -200,7 +202,7 @@ hr:after
   display: block;
   width: 1px;
   height: 21px;
-  background: rgba(128,128,128,0.2);
+
 }
 
 hr:before
@@ -220,6 +222,25 @@ hr:after
 }
 
 /* Sections/Articles */
+.sectionHeader {
+  font-size: 38px;
+  font-weight: 300;
+}
+
+.sectionSubhead {
+  font-size: 18px;
+  line-height: 1.4em;
+  margin: 0;
+  font-weight: 300;
+}
+
+hr.separetor {
+  width: 80px;
+  color: #363942;
+  border-top: 2px solid #ea9312;
+  border-bottom: solid 1px rgba(128,128,128,0);
+  margin-bottom: 20px;
+}
 
 section,
 article
@@ -1165,7 +1186,7 @@ header .icon.circled
 {
   background: #fff;
   margin: 0 0 0 0;
-  padding: 6em 0 3em 0;
+  padding: 1em 0 3em 0;
   -webkit-text-stroke: 0.3px;
 }
 
@@ -1181,16 +1202,16 @@ header .icon.circled
 {
   background: none;
   margin: 0 0 2em 0;
-  padding: 3em 0 3em 0;
+  padding: 1em 0 3em 0;
   -webkit-text-stroke: 0.3px;
 }
 
 .wrapper.style1
 {
 
-  background: #f0f4f4;
+  background: #efefef;
   margin: 0 0 0 0;
-  padding: 0em 2em 3em 2em;
+  padding: 1em 2em 3em 2em;
   -webkit-text-stroke: 0.3px;
 }
 
@@ -1219,7 +1240,7 @@ header .icon.circled
 #header
 {
   position: relative;
-  background-image: url('../images/header.jpg');
+  background-image: url('../images/header3.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
