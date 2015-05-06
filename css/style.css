@@ -1258,6 +1258,7 @@ header .icon.circled
 
 .homepage #header
 {
+  height: 101vh;
   padding: 4em 0 4em 0;
 }
 
@@ -1968,4 +1969,6 @@ p.contactPage
   /* background:url(../svg/emailOpen.svg); */
   opacity: .75;
 }
+
+
 

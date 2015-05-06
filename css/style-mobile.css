@@ -50,6 +50,11 @@
     margin-bottom: 6em;
   }
 
+hr.separetor {
+  top:0;
+  margin-bottom: 30px;
+}
+
   section,
   article,
   .row > section,
@@ -216,7 +221,7 @@
 
     #header .inner
     {
-      padding-top: 1.5em;
+      padding-top: 6.5em;
       padding-left: 1em;
       padding-right: 1em;
     }
@@ -234,6 +239,7 @@
     #header .byline
     {
       font-size: 1em;
+      font-weight: 300;
     }
 
     #header hr
