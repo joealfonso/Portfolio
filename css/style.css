@@ -1,6 +1,8 @@
 @charset 'UTF-8';
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:100,800,400);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+
 @font-face {
   font-family: 'FontAwesome';
   src: url('font/fontawesome-webfont.eot?v=3.2.1');
@@ -11,10 +13,18 @@
 
 /*
 colors --------
-Hover: #C3A996
+Hover: #ea9312
 Footer: #706054
 Orange: #ea9312
+WrapperBG #f0f4f4
+
+Tan/White: #EFF0E8
+Tan1: #C3A996
+Tan2: #937862
 Dark Tan: #423F36
+---
+
+
 */
 
 /*********************************************************************************/
@@ -32,7 +42,7 @@ body.paused *
 
 body
 {
-  background: #fff;
+  background: #f3f4ef;
   color: #5b5b5b;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -79,6 +89,17 @@ h2
 h3
 {
   font-size: 1.25em;
+}
+
+h3.projectTitles
+{
+  font-size: 1.25em;
+  font-family: 'Lato';
+  font-weight: 400;
+  color: #937862;
+  font-size: 2.063em;
+  text-transform: uppercase;
+
 }
 
 h4
@@ -158,6 +179,7 @@ p, ul, ol, dl, table
 p
 {
   text-align: justify;
+
 }
 
 .aboutTopParagraph {
@@ -230,21 +252,22 @@ hr:after
 
 /* Sections/Articles */
 
-.iconFont {
+.scrollArrow {
   position: absolute;
   bottom:20px;
-  font-size: 54px;
+
   margin: auto 0 auto 0;
   text-align: center;
-  margin-left: -16px
+  margin-left: -14px
 
 }
 .sectionHeaderContainer {
   margin-bottom: 50px;
 }
 .sectionHeader {
+  color: #937862;
   font-size: 38px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .sectionSubhead {
@@ -261,6 +284,11 @@ hr.separetor {
   border-bottom: solid 1px rgba(128,128,128,0);
   margin-bottom: 5px;
   margin-top: 0px;
+}
+
+hr.separetor.projects {
+  color: #ea9312;
+  border-top: 2px solid #ea9312;
 }
 
 section,
@@ -1230,7 +1258,7 @@ header .icon.circled
 .wrapper.style1
 {
 
-  background: #efefef;
+  background: #fff;
   margin: 0 0 0 0;
   padding: 3em 2em 3em 2em;
   -webkit-text-stroke: 0.3px;
@@ -1238,7 +1266,7 @@ header .icon.circled
 
 .wrapper.style2
 {
-
+  background: #f3f4ef;
   margin: 0 0 0 0;
   padding: 3em 2em 3em 2em;
   -webkit-text-stroke: 0.3px;
@@ -1331,6 +1359,7 @@ header .icon.circled
 #header .byline
 {
   font-size: 1.25em;
+/*  font-family: "Lora";*/
   margin: 0;
 }
 
@@ -1733,7 +1762,7 @@ header .icon.circled
   position: relative;
   overflow: hidden;
   /* padding: 6em 0 6em 0; */
-  background: #423F36;
+  background: #937862;
   color: #fff;
 }
 
