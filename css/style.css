@@ -229,6 +229,16 @@ hr:after
 }
 
 /* Sections/Articles */
+
+.iconFont {
+  position: absolute;
+  bottom:20px;
+  font-size: 54px;
+  margin: auto 0 auto 0;
+  text-align: center;
+  margin-left: -10px
+
+}
 .sectionHeaderContainer {
   margin-bottom: 50px;
 }
@@ -1222,13 +1232,16 @@ header .icon.circled
 
   background: #efefef;
   margin: 0 0 0 0;
-  padding: 1em 2em 3em 2em;
+  padding: 3em 2em 3em 2em;
   -webkit-text-stroke: 0.3px;
 }
 
 .wrapper.style2
 {
-  padding-top: 0;
+
+  margin: 0 0 0 0;
+  padding: 3em 2em 3em 2em;
+  -webkit-text-stroke: 0.3px;
 }
 
 .wrapperNoBG.style1
