@@ -14,17 +14,17 @@
 /*
 colors --------
 Hover: #ea9312
-Footer: #706054
+Overlay: 706054
+Footer: #292926
 Orange: #ea9312
 WrapperBG #f0f4f4
+WrapperStyle2: #f7f7f7
 
 Tan/White: #EFF0E8
 Tan1: #C3A996
 Tan2: #937862
-Dark Tan: #423F36
+Dark Tan: #72604b
 ---
-
-
 */
 
 /*********************************************************************************/
@@ -178,8 +178,12 @@ p, ul, ol, dl, table
 
 p
 {
-  text-align: justify;
+  text-align: center;
+}
 
+p.caption {
+  font-size: 16px;
+  padding: 0 20px 0 20px;
 }
 
 .aboutTopParagraph {
@@ -255,10 +259,10 @@ hr:after
 .scrollArrow {
   position: absolute;
   bottom:20px;
-
   margin: auto 0 auto 0;
   text-align: center;
-  margin-left: -14px
+  margin-left: -14px;
+  opacity: .5;
 
 }
 .sectionHeaderContainer {
@@ -267,7 +271,7 @@ hr:after
 .sectionHeader {
   color: #937862;
   font-size: 38px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .sectionSubhead {
@@ -1266,7 +1270,7 @@ header .icon.circled
 
 .wrapper.style2
 {
-  background: #f3f4ef;
+  background: #f7f7f7;
   margin: 0 0 0 0;
   padding: 3em 2em 3em 2em;
   -webkit-text-stroke: 0.3px;
@@ -1311,7 +1315,7 @@ header .icon.circled
 .homepage #header .overlay
 {
   content: '';
-  background: #706054;
+  background: #292926;
   display: block;
   position: absolute;
   left: 0;
@@ -1762,7 +1766,7 @@ header .icon.circled
   position: relative;
   overflow: hidden;
   /* padding: 6em 0 6em 0; */
-  background: #937862;
+  background: #292926;
   color: #fff;
 }
 
