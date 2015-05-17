@@ -80,6 +80,7 @@ h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong
   font-weight: 600;
 }
 
+
 h2
 {
   margin-top: 0em;
@@ -172,7 +173,7 @@ blockquote
 
 p, ul, ol, dl, table
 {
-  -webkit-text-stroke: 0.3px;
+/*  -webkit-text-stroke: 0.3px;*/
   margin-bottom: 1em;
 }
 
@@ -255,7 +256,7 @@ hr:after
 .scrollArrow {
   position: absolute;
   bottom:20px;
-
+  opacity: .5;
   margin: auto 0 auto 0;
   text-align: center;
   margin-left: -14px
@@ -266,8 +267,9 @@ hr:after
 }
 .sectionHeader {
   color: #937862;
-  font-size: 38px;
-  font-weight: 400;
+  font-family: "Lora";
+  font-size: 58px;
+  font-weight: 200;
 }
 
 .sectionSubhead {
@@ -1348,7 +1350,8 @@ header .icon.circled
 
 .homepage #header h1
 {
-  font-size: 4em;
+  font-size: 4.5em;
+  font-weight: 600;
 }
 
 #header h1 a
@@ -1762,7 +1765,7 @@ header .icon.circled
   position: relative;
   overflow: hidden;
   /* padding: 6em 0 6em 0; */
-  background: #937862;
+  background: #423F36;
   color: #fff;
 }
 
