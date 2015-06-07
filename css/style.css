@@ -2022,3 +2022,10 @@ p.contactPage
 
 
 
+
+.imageCaption {
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 24px;
+}
