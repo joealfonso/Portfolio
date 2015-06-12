@@ -143,9 +143,10 @@ ul.menu li:first-child {
 
 #navPanel {
   position: relative;
-  background: #1f1920;
+  background: #000;
   box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.25);
   font-size: 1em;
+  text-align: center;
 }
 
 #navPanel:before {
@@ -178,6 +179,12 @@ ul.menu li:first-child {
 #navPanel .link.depth-0 {
   color: #fff;
   font-weight: 600;
+}
+
+#navPanel .link.depth-0:active {
+  color: #fff;
+  font-weight: 600;
+  background-color: #f3762a;
 }
 
 #navPanel .indent-1 {
