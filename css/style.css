@@ -13,9 +13,9 @@
 
 /*
 colors --------
-Hover: #ea9312
+Hover: #f3762a
 Footer: #706054
-Orange: #ea9312
+Orange: #f3762a
 WrapperBG #f0f4f4
 
 Tan/White: #EFF0E8
@@ -97,7 +97,7 @@ h3.projectTitles
   font-size: 1.25em;
   font-family: 'Lato';
   font-weight: 400;
-  color: #937862;
+  color: #000;
   font-size: 2.063em;
   text-transform: uppercase;
 
@@ -142,12 +142,12 @@ a
 
 a:hover
 {
-  color: #ea9312;
+  color: #f3762a;
 
 }
 
 .updateLink {
-  color:#ea9312;
+  color:#f3762a;
 }
 
 sub
@@ -259,17 +259,24 @@ hr:after
   opacity: .5;
   margin: auto 0 auto 0;
   text-align: center;
-  margin-left: -14px
+  margin-left: -14px;
+  border-radius: 50%;
+  border: 2px solid #f3762a;
 
 }
 .sectionHeaderContainer {
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  display: inline-block;
 }
 .sectionHeader {
-  color: #937862;
-  font-family: "Lora";
-  font-size: 58px;
-  font-weight: 200;
+  color: #000;
+  font-family: "Lato";
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0 1rem;
+  letter-spacing: 7px;;
+  border: 4px solid #f3762a;
 }
 
 .sectionSubhead {
@@ -281,16 +288,16 @@ hr:after
 
 hr.separetor {
   width: 80px;
-  color: #ea9312;
-  border-top: 2px solid #ea9312;
+  color: #f3762a;
+  border-top: 4px solid #f3762a;
   border-bottom: solid 1px rgba(128,128,128,0);
   margin-bottom: 5px;
   margin-top: 0px;
 }
 
 hr.separetor.projects {
-  color: #ea9312;
-  border-top: 2px solid #ea9312;
+  color: #f3762a;
+  border-top: 2px solid #f3762a;
 }
 
 section,
@@ -612,7 +619,7 @@ ul.icons li a
 
 ul.icons li a:hover
 {
-  color: #ea9312;
+  color: #f3762a;
 }
 
 ol.style1
@@ -752,7 +759,7 @@ table.style1 tbody
 .button:hover
 {
   color: #fff;
-  background: #ea9312;
+  background: #f3762a;
 }
 
 
@@ -1313,7 +1320,7 @@ header .icon.circled
 .homepage #header .overlay
 {
   content: '';
-  background: #706054;
+  background: #000;
   display: block;
   position: absolute;
   left: 0;
@@ -1368,13 +1375,20 @@ header .icon.circled
 
 #header .button
 {
-  border-radius: 100%;
-  width: 4.5em;
-  height: 4.5em;
-  line-height: 4.5em;
+  border-radius: 0;
+  border: 4px solid #f3762a;
+  background: rgba(0,0,0,0);
+  width: 70%;
+  margin-top: 24px;
+  letter-spacing: 7px;
+  line-height: 2em;
   text-align: center;
   font-size: 1.25em;
   padding: 0;
+}
+
+#header .button:hover{
+  background: rgba(243,118,42,.5);
 }
 
 #header header
@@ -1400,6 +1414,12 @@ header .icon.circled
 #header hr:after
 {
   background: rgba(192,192,192,0.35);
+}
+
+.hero-logo {
+
+  width: 15%;
+  margin-bottom: 2rem;
 }
 
 
@@ -1611,7 +1631,7 @@ header .icon.circled
 
 #nav > ul > li:hover
 {
-  color: #ea9312;
+  color: #f3762a;
 }
 
 #nav > ul > li > a,
@@ -1654,7 +1674,7 @@ header .icon.circled
 
 .dropotron li:hover
 {
-  color: #ea9312;
+  color: #f3762a;
 }
 
 .dropotron li a,
@@ -1765,7 +1785,7 @@ header .icon.circled
   position: relative;
   overflow: hidden;
   /* padding: 6em 0 6em 0; */
-  background: #423F36;
+  background: #000;
   color: #fff;
 }
 
@@ -1817,7 +1837,7 @@ header .icon.circled
 #footer .copyright a:hover
 {
   /* color: rgba(212,212,212,0.85); */
-  color: #ea9312;
+  color: #f3762a;
 }
 
 /*********************************************************************************/
