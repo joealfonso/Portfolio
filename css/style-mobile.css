@@ -179,6 +179,7 @@ ul.menu li:first-child {
 #navPanel .link.depth-0 {
   color: #fff;
   font-weight: 600;
+  transition: all 0s ease;
 }
 
 #navPanel .link.depth-0:active {
