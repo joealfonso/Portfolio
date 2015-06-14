@@ -37,7 +37,7 @@ body.paused * {
 }
 
 body {
-  background: #f3f4ef;
+  background: #f4f4f4;
   color: #5b5b5b;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -253,7 +253,7 @@ hr:after {
 }
 
 .sectionHeaderContainer {
-  margin: 50px auto 40px auto;
+  margin: 50px auto 30px auto;
   text-align: center;
   display: inline-block;
 }
@@ -267,7 +267,7 @@ hr:after {
   text-align: center;
   margin: 0 auto;
   letter-spacing: 7px;
-  ;
+
   border-bottom: 1px solid #f3762a;
 }
 
