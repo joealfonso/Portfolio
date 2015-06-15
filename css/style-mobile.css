@@ -24,6 +24,7 @@ h3 {
 }
 
 h3.projectTitles {
+  visibility: visible;
   font-size: 1.363em;
 }
 
@@ -226,6 +227,22 @@ ul.menu li:first-child {
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
+
+.sectionHeader {
+  width: 90%;
+  color: #000;
+  font-family: "Lato";
+  font-size: 32px;
+  font-weight: 700;
+  padding: 0 1rem;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 7px;
+
+  border-bottom: 1px solid #f3762a;
+}
+
+.sectionHeader
 
 .hero-logo {
   width: 25%;

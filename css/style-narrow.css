@@ -3,3 +3,16 @@
   html5up.net | @n33co
   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.sectionHeader {
+  width: 90%;
+  color: #000;
+  font-family: "Lato";
+  font-size: 32px;
+  font-weight: 700;
+  padding: 0 1rem;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 7px;
+
+  border-bottom: 1px solid #f3762a;
+}

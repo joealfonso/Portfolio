@@ -37,7 +37,7 @@ body.paused * {
 }
 
 body {
-  background: #f4f4f4;
+  background: #fff;
   color: #5b5b5b;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -107,6 +107,7 @@ h3.projectTitles {
   font-family: 'Lato';
   font-weight: 700;
   color: #000;
+  visibility: hidden;
 }
 
 h4 {
@@ -253,7 +254,7 @@ hr:after {
 }
 
 .sectionHeaderContainer {
-  margin: 50px auto 30px auto;
+  margin: 30px auto 50px auto;
   text-align: center;
   display: inline-block;
 }
@@ -267,7 +268,6 @@ hr:after {
   text-align: center;
   margin: 0 auto;
   letter-spacing: 7px;
-
   border-bottom: 1px solid #f3762a;
 }
 
@@ -336,13 +336,16 @@ figcaption {
 
 .darkContainer {
   margin: 0;
-  margin-top: 3rem;
+  margin-top: 0rem;
   padding: 0;
-  background-color: #f3762a;
   display: inline-block;
   overflow: hidden;
   cursor: pointer;
   position: relative;
+}
+
+.darkContainer:hover {
+  /*  background-color: #f3762a;*/
 }
 
 figure.darkContainer figcaption {
@@ -511,6 +514,8 @@ img {
   margin: 0 auto;
   width: auto;
 }
+
+
 /* Lists */
 
 ul.style1 {}
@@ -2237,8 +2242,6 @@ header .icon.circled {
 /* Wrapper                                                                       */
 /*********************************************************************************/
 
-
-
 .wrapper {
   background: #fff;
   margin: 0 0 0 0;
@@ -2247,7 +2250,7 @@ header .icon.circled {
 }
 
 .wrapper2 {
-  background: #f0f4f4;
+  background: #fff;
   margin: 0 0 0 0;
   padding: 6em 0 3em 0;
   -webkit-text-stroke: 0.3px;
@@ -2268,14 +2271,14 @@ header .icon.circled {
 }
 
 .wrapper.style2 {
-  background: #f3f4ef;
+  background: #fff;
   margin: 0 0 0 0;
   padding: 3em 2em 3em 2em;
   -webkit-text-stroke: 0.3px;
 }
 
 .wrapper.style2.topbordersection {
-  margin-top:100px;
+  margin-top: 100px;
 }
 
 .wrapperNoBG.style1 {}
@@ -2284,7 +2287,7 @@ header .icon.circled {
   padding-top: 0;
 }
 
-.topbordersection{
+.topbordersection {
   border-top: 4px solid#f3762a;
   margin-top: 100px;
 }
@@ -2355,7 +2358,6 @@ header .icon.circled {
 #header .byline {
   font-size: 1em;
   font-family: "Lora";
-
   margin: 0;
 }
 
@@ -2703,7 +2705,6 @@ header .icon.circled {
   position: relative;
   overflow: hidden;
   padding: 1em 0 1em 0;
-
   background: #000;
   color: #fff;
 }
@@ -2737,10 +2738,7 @@ header .icon.circled {
   margin: 1em 0 1em 0;
 }
 
-.footernav:hover {
-
-}
-
+.footernav:hover {}
 
 #footer .copyright {
   text-align: center;
