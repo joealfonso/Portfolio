@@ -28,6 +28,12 @@ h3.projectTitles {
   font-size: 1.363em;
 }
 
+.project-header {
+  width: 100%;
+  line-height: 28px;
+  margin: 0 auto;
+}
+
 .byline {
   font-size: 1.25em;
 }
@@ -54,10 +60,7 @@ hr.separetor {
 }
 
 
-.sectionHeader{
-  font-size: 22px;
-  letter-spacing: 0;
-}
+
 
 section,
 article,
@@ -232,7 +235,7 @@ ul.menu li:first-child {
   width: 90%;
   color: #000;
   font-family: "Lato";
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   padding: 0 1rem;
   text-align: center;
@@ -242,7 +245,6 @@ ul.menu li:first-child {
   border-bottom: 1px solid #f3762a;
 }
 
-.sectionHeader
 
 .hero-logo {
   width: 25%;
