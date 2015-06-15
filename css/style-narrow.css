@@ -16,3 +16,8 @@
 
   border-bottom: 1px solid #f3762a;
 }
+
+h3.projectTitles {
+  visibility: visible;
+  font-size: 1.363em;
+}
