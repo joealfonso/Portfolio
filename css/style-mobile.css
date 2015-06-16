@@ -28,6 +28,11 @@ h3.projectTitles {
   font-size: 1.363em;
 }
 
+h3.projectTitles {
+  visibility: visible;
+  font-size: 1.363em;
+}
+
 .project-header {
   width: 100%;
   line-height: 28px;
