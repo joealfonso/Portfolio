@@ -573,7 +573,6 @@ ul.icons {
   background: rgba(128, 128, 128, 0);
   border-radius: 4em;
   display: inline-block;
-  padding: 0.35em 0.75em 0.35em 0.75em;
   font-size: 1.25em;
   cursor: default;
 }
@@ -2291,9 +2290,7 @@ header .icon.circled {
   -webkit-text-stroke: 0.3px;
 }
 
-.wrapper.style2.topbordersection {
-  margin-top: 100px;
-}
+
 
 .wrapperNoBG.style1 {}
 
@@ -2302,7 +2299,7 @@ header .icon.circled {
 }
 
 .topbordersection {
-  border-top: 4px solid#f3762a;
+  border-top: 4px solid #f3762a;
   margin-top: 100px;
 }
 /*********************************************************************************/
@@ -2381,7 +2378,7 @@ header .icon.circled {
   border: 4px solid #f3762a;
   background: rgba(0, 0, 0, 0);
   width: 70%;
-  margin-top: 100px;
+  margin-top: 50px;
   letter-spacing: 7px;
   line-height: 2em;
   text-align: center;
@@ -2756,6 +2753,11 @@ header .icon.circled {
 .footernav {
   font-family: "Lato", sans-serif;
   color: #fff;
+  margin-right: 40px;
+}
+
+.footernav.last {
+  margin-right: 0;
 }
 
 .footernav:hover {}
