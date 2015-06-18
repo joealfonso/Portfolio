@@ -28,15 +28,21 @@ h3.projectTitles {
   font-size: 1.363em;
 }
 p {
-  padding: 0 5%;
+
 }
 .project-header {
   width: 100%;
   margin: 0 auto;
 }
 
-.project-intro {
+.row-project {
+  width: 90%;
+  margin: 0 auto;
+}
 
+.projectintro {
+  text-align: left;
+  margin: 0 5% 40px 5%;
 }
 
 .byline {
