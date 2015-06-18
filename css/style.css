@@ -187,6 +187,17 @@ p {
   text-align: left;
 }
 
+.projectintro {
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  margin: 0 10% 40px 10%;
+}
+
+.projectcontent {
+  margin-bottom: 40px
+}
+
 .aboutTopParagraph {
   margin-top: 1em;
 }
@@ -257,14 +268,25 @@ hr:after {
 
 
 .container {
-  width: 70%;
-  max-width: 1400px;
+  width: 100%;
 }
 
 .project-header {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
+
+.project-subhead {
+  color: #000;
+  font-family: "Lato";
+  font-size: 40px;
+  font-weight: 700;
+  padding: 0;
+  text-align: left;
+  margin: 0 auto 20px auto;
+  letter-spacing: 4px;
+}
+
 .sectionHeaderContainer {
   margin: 30px auto 50px auto;
   text-align: center;
@@ -274,14 +296,15 @@ hr:after {
 .sectionHeader {
   color: #000;
   font-family: "Lato";
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 700;
   padding: 0 1rem;
   text-align: center;
   margin: 0 auto;
-  letter-spacing: 7px;
+  letter-spacing: 4px;
   border-bottom: 1px solid #f3762a;
 }
+
 
 .sectionSubhead {
   font-size: 18px;
@@ -511,7 +534,7 @@ img {
 .image.featured {
   display: block;
   width: 100%;
-  margin: 0 0 0 0;
+  margin: 20px 0 40px 0;
 }
 
 .image.left {
@@ -2279,7 +2302,7 @@ header .icon.circled {
 .wrapper.style1 {
   background: #fff;
   margin: 0 0 0 0;
-  padding: 3em 2em 3em 2em;
+  padding: 3em 0 3em 0;
   -webkit-text-stroke: 0.3px;
 }
 
@@ -2910,6 +2933,11 @@ header .icon.circled {
 
   margin-right: auto;
   text-align: center;
+}
+
+.row-project {
+  width: 60%;
+  margin: 0 auto;
 }
 
 .row .Contact {

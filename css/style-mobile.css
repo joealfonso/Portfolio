@@ -28,9 +28,8 @@ h3.projectTitles {
   font-size: 1.363em;
 }
 
-project-header {
+.project-header {
   width: 100%;
-  line-height: 28px;
   margin: 0 auto;
 }
 
@@ -232,15 +231,15 @@ ul.menu li:first-child {
 /*********************************************************************************/
 
 .sectionHeader {
-  width: 90%;
+  width: 100%;
   color: #000;
   font-family: "Lato";
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 700;
   padding: 0 1rem;
   text-align: center;
   margin: 0 auto;
-  letter-spacing: 7px;
+  letter-spacing: 1px;
 
   border-bottom: 1px solid #f3762a;
 }
