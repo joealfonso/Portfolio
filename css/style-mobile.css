@@ -354,8 +354,8 @@ ul.menu li:first-child {
   padding-right: 1em;
 }
 
-footernav {
-  font-size: 12px;
+.footernav {
+  font-size: 15px;
   margin-right: 15px;
 }
 /*********************************************************************************/
