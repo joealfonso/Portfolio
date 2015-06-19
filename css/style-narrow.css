@@ -50,3 +50,13 @@ figure.darkContainer p {
   width: 100%;
   margin: 0;
 }
+.project-subhead {
+  color: #000;
+  font-family: "Lato";
+  font-size: 40px;
+  font-weight: 700;
+  padding: 0;
+  text-align: left;
+  margin: 40px auto 20px auto;
+  letter-spacing: 4px;
+}
