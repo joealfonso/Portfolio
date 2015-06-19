@@ -110,6 +110,17 @@ h3.projectTitles {
   visibility: hidden;
 }
 
+.myroles {
+  width: 70%;
+
+}
+
+.myroles-header {
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 h4 {
   font-size: 1em;
   margin: 0 0 0.25em 0;
@@ -291,7 +302,8 @@ hr:after {
 .sectionHeaderContainer {
   margin: 30px auto 50px auto;
   text-align: center;
-  display: inline-block;
+  width: 70%;
+  display: block;
 }
 
 .sectionHeader {
@@ -392,11 +404,12 @@ figure.darkContainer figcaption {
 
 figure.darkContainer img {
   max-width: none;
-  width: 100%;
+  width: 50%;
   -webkit-transition: opacity .4s, -webkit-transform .4s;
   transition: opacity .4s, transform .4s;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  overflow: hidden;
 }
 
 figure.darkContainer:hover img {
@@ -535,7 +548,6 @@ img {
 .image.featured {
   display: block;
   width: 100%;
-  margin: 20px 0 40px 0;
 }
 
 .image.left {
@@ -2316,6 +2328,12 @@ header .icon.circled {
 
 
 
+.wrapper.style2.myroles {
+  padding-top: 0;
+  width: 90%;
+  margin: 0 5% 0 5%;
+}
+
 .wrapperNoBG.style1 {}
 
 .wrapperNoBG.style2 {
@@ -2730,9 +2748,11 @@ header .icon.circled {
 
 #main {}
 
+/*
 #main section:first-of-type {
   padding-top: 2em;
 }
+*/
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
@@ -2931,14 +2951,18 @@ header .icon.circled {
 
 .row {
   /*margin-left:auto;*/
-
+  margin-top: 40px;
   margin-right: auto;
   text-align: center;
 }
 
+.col-description {
+  padding: 0 30px;
+}
+
 .row-project {
   width: 60%;
-  margin: 0 auto;
+  margin: 60px auto;
 }
 
 .row .Contact {

@@ -40,9 +40,14 @@ p {
   margin: 0 auto;
 }
 
+.projectcontent {
+  line-height: 35px;
+}
+
 .projectintro {
   text-align: left;
   margin: 0 5% 40px 5%;
+  line-height: 35px;
 }
 
 .byline {
@@ -126,6 +131,16 @@ ul.menu li:first-child {
 /*********************************************************************************/
 /* UI                                                                            */
 /*********************************************************************************/
+.col-description {
+  padding: 0;
+}
+
+.wrapper.style2.myroles {
+  padding: 0 1em;
+  width: 100%;
+  margin: 0;
+}
+
 
 
 #header .button {

@@ -39,3 +39,14 @@ figure.darkContainer p {
   width: 100%;
   margin: 0 auto;
 }
+
+
+.col-description {
+  padding: 0 20px;
+}
+
+.wrapper.style2.myroles {
+  padding-top: 0;
+  width: 100%;
+  margin: 0;
+}
