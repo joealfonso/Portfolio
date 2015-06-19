@@ -525,6 +525,18 @@ img {
   margin-right: auto
 }
 
+.projectpage-img {
+  display: inline-block;
+  max-width: 50%;
+  margin: 2em 1.5em;
+}
+
+.container-projectimages {
+  width: 100%;
+  padding: 0 10%;
+
+}
+
 .image img {
   display: block;
   width: 100%;
@@ -2962,7 +2974,12 @@ header .icon.circled {
 
 .row-project {
   width: 60%;
-  margin: 60px auto;
+  margin: 80px auto;
+}
+
+.alt-bg {
+  padding-top: 60px;
+  background: #f4f4f4;
 }
 
 .row .Contact {

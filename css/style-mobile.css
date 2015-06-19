@@ -141,7 +141,11 @@ ul.menu li:first-child {
   margin: 0;
 }
 
-
+.projectpage-img {
+  display: inline-block;
+  max-width: 80%;
+  margin: 2em 1em;
+}
 
 #header .button {
   margin-top: 15px;;
