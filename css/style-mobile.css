@@ -45,6 +45,12 @@ p {
   line-height: 32px;
 }
 
+.project-section-3col {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 200;
+}
+
 .projectintro {
   text-align: left;
   margin: 0 5% 40px 5%;
