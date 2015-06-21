@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:100,800,400);
 @import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,900,300,700,700italic);
 @font-face {
   font-family: 'FontAwesome';
   src: url('font/fontawesome-webfont.eot?v=3.2.1');
@@ -64,7 +65,7 @@ h5,
 h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  color: #483949;
+  color: #000;
   line-height: 1.5em;
 }
 
@@ -119,6 +120,7 @@ h3.projectTitles {
   text-align: left;
   font-weight: 700;
   margin-bottom: 10px;
+  border-bottom: 1px solid #000;
 }
 
 h4 {
@@ -136,7 +138,7 @@ h4 {
 strong,
 b {
   font-weight: 400;
-  color: #483949;
+  color: #000;
 }
 
 em,
@@ -193,7 +195,8 @@ table {
 }
 
 p {
-  font-family: "Lora", serif;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
   color: #111;
   text-align: left;
 }
@@ -297,7 +300,24 @@ hr:after {
   padding: 0;
   text-align: left;
   margin: 0 auto 20px auto;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
+}
+
+.project-section-subhead {
+  color: #000;
+  font-family: "Lato";
+  font-size: 22px;
+  font-weight: 900;
+  padding: 0;
+  text-align: left;
+  margin: 0 auto 20px auto;
+  letter-spacing: 2px;
+}
+
+.project-section-3col {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 200;
 }
 
 .sectionHeaderContainer {
@@ -315,7 +335,7 @@ hr:after {
   padding: 0 1rem;
   text-align: center;
   margin: 0 auto;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   border-bottom: 1px solid #f3762a;
 }
 
@@ -2424,7 +2444,7 @@ header .icon.circled {
 
 #header .byline {
   font-size: 1em;
-  font-family: "Lora";
+  font-family: "Merriweather";
   margin: 0;
 }
 
