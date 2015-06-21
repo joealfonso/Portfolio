@@ -3,6 +3,8 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:100,800,400);
 @import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,900,300,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Martel:200,300,400,800);
+
 @font-face {
   font-family: 'FontAwesome';
   src: url('font/fontawesome-webfont.eot?v=3.2.1');
@@ -195,17 +197,17 @@ table {
 }
 
 p {
-  font-family: "Merriweather", serif;
-  font-weight: 300;
-  color: #111;
+  font-family: "Martel", serif;
+  font-weight: 200;
+  color: #000;
   text-align: left;
 }
 
 .projectintro {
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 22px;
+  line-height: 39px;
   text-align: center;
-  margin: 0 10% 40px 10%;
+  margin: 0 10% 80px 10%;
 }
 
 .projectcontent {
@@ -300,7 +302,7 @@ hr:after {
   padding: 0;
   text-align: left;
   margin: 0 auto 20px auto;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .project-section-subhead {
@@ -311,12 +313,12 @@ hr:after {
   padding: 0;
   text-align: left;
   margin: 0 auto 20px auto;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .project-section-3col {
-  font-size: 16px;
-  line-height: 27px;
+  font-size: 18px;
+  line-height: 32px;
   font-weight: 200;
 }
 
@@ -335,7 +337,7 @@ hr:after {
   padding: 0 1rem;
   text-align: center;
   margin: 0 auto;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   border-bottom: 1px solid #f3762a;
 }
 
@@ -2444,7 +2446,7 @@ header .icon.circled {
 
 #header .byline {
   font-size: 1em;
-  font-family: "Merriweather";
+  font-family: "Martel";
   margin: 0;
 }
 
@@ -2454,7 +2456,7 @@ header .icon.circled {
   background: rgba(0, 0, 0, 0);
   width: 70%;
   margin-top: 50px;
-  letter-spacing: 7px;
+  letter-spacing: 4px;
   line-height: 2em;
   text-align: center;
   font-size: 1.25em;
