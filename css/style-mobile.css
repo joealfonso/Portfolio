@@ -41,7 +41,8 @@ p {
 }
 
 .projectcontent {
-  line-height: 35px;
+  font-size: 18px;
+  line-height: 32px;
 }
 
 .projectintro {
