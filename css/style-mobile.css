@@ -63,6 +63,8 @@ p {
   border-bottom: 1px solid #f3762a;
 }
 
+
+
 .project-subhead {
   color: #000;
   font-family: "Lato";
@@ -162,6 +164,14 @@ ul.menu li:first-child {
 .col-description {
   padding: 0;
 }
+
+.about-div {
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+
 
 .wrapper.style2.myroles {
   padding: 0 1em;
@@ -362,6 +372,10 @@ ul.menu li:first-child {
 /*********************************************************************************/
 
 #nav {
+  display: none;
+}
+
+#nav-invert {
   display: none;
 }
 /*********************************************************************************/
